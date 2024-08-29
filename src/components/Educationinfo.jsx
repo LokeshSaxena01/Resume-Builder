@@ -2,10 +2,10 @@ import { format, parseISO } from 'date-fns';
 import {
   FormComplete,
   FormCompleteDiv,
-  FormTopHeding,
   FormInfoInput,
-  FormSubHeading,
   FormLabel,
+  FormSubHeading,
+  FormTopHeding,
 } from './styles/FormStyling';
 
 export default function EducationInfo({

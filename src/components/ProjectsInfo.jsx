@@ -1,10 +1,10 @@
 import {
   FormComplete,
   FormCompleteDiv,
-  FormTopHeding,
   FormInfoInput,
-  FormSubHeading,
   FormInfoTextArea,
+  FormSubHeading,
+  FormTopHeding,
 } from './styles/FormStyling';
 
 export default function ProjectInfo({

@@ -1,13 +1,13 @@
+import { format, parseISO } from 'date-fns';
 import {
+  FormBtn,
   FormComplete,
   FormCompleteDiv,
-  FormTopHeding,
   FormInfoInput,
-  FormSubHeading,
   FormLabel,
-  FormBtn,
+  FormSubHeading,
+  FormTopHeding,
 } from './styles/FormStyling';
-import { format, parseISO } from 'date-fns';
 
 export default function JobEx({
   workEx,

@@ -2,8 +2,8 @@ import {
   FormBtn,
   FormComplete,
   FormCompleteDiv,
-  FormTopHeding,
   FormInfoInput,
+  FormTopHeding,
 } from './styles/FormStyling';
 
 export default function BasicInfo({

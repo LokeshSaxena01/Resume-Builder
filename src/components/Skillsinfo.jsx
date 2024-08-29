@@ -1,10 +1,9 @@
-import styled from 'styled-components';
 
 import {
   FormComplete,
   FormCompleteDiv,
-  FormTopHeding,
   FormInfoInput,
+  FormTopHeding,
 } from './styles/FormStyling';
 
 export default function Skills({ skillsInfo, onChangeSkills, id }) {

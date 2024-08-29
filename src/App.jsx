@@ -1,29 +1,29 @@
 import { useState } from 'react';
-import { Completediv, GlobalStyle } from './components/styles/Completediv';
-import { ContentDiv } from './components/styles/ContentDiv';
-import {
-  HeaderDiv,
-  HeaderName,
-  HeaderImageDiv,
-} from './components/styles/HeaderDiv';
-import {
-  FooterDiv,
-  Copyright,
-  FooterText,
-} from './components/styles/FooterDiv';
-import { LeftDiv } from './components/styles/LeftDiv';
-import { RightDiv } from './components/styles/RightDiv';
-import { FormDiv } from './components/styles/FormContent';
+import generatePDF, { Margin } from 'react-to-pdf';
+import styled from 'styled-components';
 import BasicInfo from './components/BasicInfo';
 import EducationInfo from './components/Educationinfo';
 import JobEx from './components/JobExperience';
 import ProjectInfo from './components/ProjectsInfo';
-import Skills from './components/Skillsinfo';
 import RenderResume from './components/Render';
+import Skills from './components/Skillsinfo';
 import mockData from './components/mock-data';
-import styled from 'styled-components';
-import generatePDF, { Margin } from 'react-to-pdf';
+import { Completediv, GlobalStyle } from './components/styles/Completediv';
+import { ContentDiv } from './components/styles/ContentDiv';
+import {
+  Copyright,
+  FooterDiv,
+  FooterText,
+} from './components/styles/FooterDiv';
+import { FormDiv } from './components/styles/FormContent';
 import { FormBtn } from './components/styles/FormStyling';
+import {
+  HeaderDiv,
+  HeaderImageDiv,
+  HeaderName,
+} from './components/styles/HeaderDiv';
+import { LeftDiv } from './components/styles/LeftDiv';
+import { RightDiv } from './components/styles/RightDiv';
 
 const TopButtonsDiv = styled.div`
   display: flex;
@@ -1022,7 +1022,7 @@ function App() {
               PaddingRight="0"
             >
               {' '}
-              2024 Manikanth
+              2024 Lokesh Saxena
             </FooterText>
           </Copyright>
           <div class="github-icon">
